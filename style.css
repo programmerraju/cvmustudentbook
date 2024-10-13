@@ -1,0 +1,20 @@
+/* CSS for the student gallery */
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
